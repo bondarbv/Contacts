@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		474130302739C962003E8063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741302F2739C962003E8063 /* AppDelegate.swift */; };
 		474130322739C962003E8063 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474130312739C962003E8063 /* SceneDelegate.swift */; };
-		474130342739C962003E8063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474130332739C962003E8063 /* ViewController.swift */; };
 		474130372739C962003E8063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474130352739C962003E8063 /* Main.storyboard */; };
 		474130392739C963003E8063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474130382739C963003E8063 /* Assets.xcassets */; };
 		4741303C2739C963003E8063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4741303A2739C963003E8063 /* LaunchScreen.storyboard */; };
+		47D68FE1273BFE12005C65A6 /* FirstContactsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D68FE0273BFE12005C65A6 /* FirstContactsTVC.swift */; };
+		47D68FE5273C3334005C65A6 /* ContactInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D68FE4273C3334005C65A6 /* ContactInfoVC.swift */; };
+		47D68FE9273C3E0C005C65A6 /* SecondContactsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D68FE8273C3E0C005C65A6 /* SecondContactsTVC.swift */; };
+		47F715B02739E97100C669C3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F715AF2739E97100C669C3 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4741302C2739C962003E8063 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4741302F2739C962003E8063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		474130312739C962003E8063 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		474130332739C962003E8063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		474130362739C962003E8063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		474130382739C963003E8063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4741303B2739C963003E8063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4741303D2739C963003E8063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D68FE0273BFE12005C65A6 /* FirstContactsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstContactsTVC.swift; sourceTree = "<group>"; };
+		47D68FE4273C3334005C65A6 /* ContactInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoVC.swift; sourceTree = "<group>"; };
+		47D68FE8273C3E0C005C65A6 /* SecondContactsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContactsTVC.swift; sourceTree = "<group>"; };
+		47F715AF2739E97100C669C3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +62,15 @@
 		4741302E2739C962003E8063 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				47D68FE8273C3E0C005C65A6 /* SecondContactsTVC.swift */,
+				47D68FE4273C3334005C65A6 /* ContactInfoVC.swift */,
+				47F715AF2739E97100C669C3 /* Person.swift */,
+				47D68FE0273BFE12005C65A6 /* FirstContactsTVC.swift */,
 				4741302F2739C962003E8063 /* AppDelegate.swift */,
 				474130312739C962003E8063 /* SceneDelegate.swift */,
-				474130332739C962003E8063 /* ViewController.swift */,
 				474130352739C962003E8063 /* Main.storyboard */,
-				474130382739C963003E8063 /* Assets.xcassets */,
 				4741303A2739C963003E8063 /* LaunchScreen.storyboard */,
+				474130382739C963003E8063 /* Assets.xcassets */,
 				4741303D2739C963003E8063 /* Info.plist */,
 			);
 			path = Contacts;
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				474130342739C962003E8063 /* ViewController.swift in Sources */,
+				47D68FE1273BFE12005C65A6 /* FirstContactsTVC.swift in Sources */,
+				47F715B02739E97100C669C3 /* Person.swift in Sources */,
+				47D68FE9273C3E0C005C65A6 /* SecondContactsTVC.swift in Sources */,
 				474130302739C962003E8063 /* AppDelegate.swift in Sources */,
 				474130322739C962003E8063 /* SceneDelegate.swift in Sources */,
+				47D68FE5273C3334005C65A6 /* ContactInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +304,7 @@
 				DEVELOPMENT_TEAM = 7288C3T3B9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Contacts/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Contacts;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +319,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,6 +333,7 @@
 				DEVELOPMENT_TEAM = 7288C3T3B9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Contacts/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Contacts;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
