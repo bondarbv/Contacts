@@ -7,11 +7,6 @@
 struct PersonInfo {
     let name: String
     let surname: String
-    
-    var fullName: String {
-        "\(name) \(surname)"
-    }
-    
     let number: String
     let email: String
 }
